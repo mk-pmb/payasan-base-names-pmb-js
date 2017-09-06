@@ -1,0 +1,36 @@
+{ "name": "payasan-base-names-pmb",
+  "version": "0.1.0",
+  "description": "JSON translations of some of the name definitions from Payasan, a Haskell framework for making music models and embedded DSLs.",
+  "keywords": [ "music" ],
+
+  "author": "Stephen Peter Tetley (https://github.com/stephentetley)",
+  "homepage": "https://github.com/mk-pmb/payasan-base-names-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/payasan-base-names-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/payasan-base-names-pmb-js/issues"
+  },
+  "contributors": [
+    "M.K. (https://github.com/mk-pmb)"
+  ],
+
+  "private": false, "license": "BSD-3-Clause",
+
+  "main": "dist/import-all.js",
+  "scripts": {
+    "test": "nodejs test.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
