@@ -1,0 +1,217 @@
+﻿{ "": {
+    "moduleName": "Interval",
+    "license": "BSD-3-Clause",
+    "origAuthor": "Stephen Peter Tetley (https://github.com/stephentetley)",
+    "monoType": "Interval",
+    "order": [
+      "perfect_unison",
+      "augmented_unison",
+      "diminished_second",
+      "minor_second",
+      "major_second",
+      "augmented_second",
+      "diminished_third",
+      "minor_third",
+      "major_third",
+      "augmented_third",
+      "diminished_fourth",
+      "perfect_fourth",
+      "augmented_fourth",
+      "diminished_fifth",
+      "perfect_fifth",
+      "augmented_fifth",
+      "diminished_sixth",
+      "minor_sixth",
+      "major_sixth",
+      "augmented_sixth",
+      "diminished_seventh",
+      "minor_seventh",
+      "major_seventh",
+      "augmented_seventh",
+      "diminished_octave",
+      "perfect_octave",
+      "augmented_octave",
+      "diminished_ninth",
+      "minor_ninth",
+      "major_ninth",
+      "augmented_ninth",
+      "diminished_tenth",
+      "minor_tenth",
+      "major_tenth",
+      "augmented_tenth",
+      "diminished_eleventh",
+      "perfect_eleventh",
+      "augmented_eleventh",
+      "diminished_twelfth",
+      "perfect_twelfth",
+      "augmented_twelfth",
+      "diminished_thirteenth",
+      "minor_thirteenth",
+      "major_thirteenth",
+      "augmented_thirteenth",
+      "diminished_fourteenth",
+      "minor_fourteenth",
+      "major_fourteenth",
+      "augmented_fourteenth",
+      "diminished_fifteenth",
+      "perfect_fifteenth",
+      "augmented_fifteenth" ] },
+  "perfect_unison": {
+    "comment": "See:\nhttps://en.wikipedia.org/wiki/Interval_(music)#Main_intervals",
+    "distance": 1,
+    "semitones": 0 },
+  "augmented_unison": {
+    "distance": 1,
+    "semitones": 1 },
+  "diminished_second": {
+    "distance": 2,
+    "semitones": 0 },
+  "minor_second": {
+    "distance": 2,
+    "semitones": 1 },
+  "major_second": {
+    "distance": 2,
+    "semitones": 2 },
+  "augmented_second": {
+    "distance": 2,
+    "semitones": 3 },
+  "diminished_third": {
+    "distance": 3,
+    "semitones": 2 },
+  "minor_third": {
+    "distance": 3,
+    "semitones": 3 },
+  "major_third": {
+    "distance": 3,
+    "semitones": 4 },
+  "augmented_third": {
+    "distance": 3,
+    "semitones": 5 },
+  "diminished_fourth": {
+    "distance": 4,
+    "semitones": 4 },
+  "perfect_fourth": {
+    "distance": 4,
+    "semitones": 5 },
+  "augmented_fourth": {
+    "distance": 4,
+    "semitones": 6 },
+  "diminished_fifth": {
+    "distance": 5,
+    "semitones": 6 },
+  "perfect_fifth": {
+    "distance": 5,
+    "semitones": 7 },
+  "augmented_fifth": {
+    "distance": 5,
+    "semitones": 8 },
+  "diminished_sixth": {
+    "distance": 6,
+    "semitones": 7 },
+  "minor_sixth": {
+    "distance": 6,
+    "semitones": 8 },
+  "major_sixth": {
+    "distance": 6,
+    "semitones": 9 },
+  "augmented_sixth": {
+    "distance": 6,
+    "semitones": 10 },
+  "diminished_seventh": {
+    "distance": 7,
+    "semitones": 9 },
+  "minor_seventh": {
+    "distance": 7,
+    "semitones": 10 },
+  "major_seventh": {
+    "distance": 7,
+    "semitones": 11 },
+  "augmented_seventh": {
+    "distance": 7,
+    "semitones": 12 },
+  "diminished_octave": {
+    "distance": 8,
+    "semitones": 11 },
+  "perfect_octave": {
+    "distance": 8,
+    "semitones": 12 },
+  "augmented_octave": {
+    "distance": 8,
+    "semitones": 13 },
+  "diminished_ninth": {
+    "comment": "Compound intervals",
+    "distance": 9,
+    "semitones": 12 },
+  "minor_ninth": {
+    "distance": 9,
+    "semitones": 13 },
+  "major_ninth": {
+    "distance": 9,
+    "semitones": 14 },
+  "augmented_ninth": {
+    "distance": 9,
+    "semitones": 15 },
+  "diminished_tenth": {
+    "distance": 10,
+    "semitones": 14 },
+  "minor_tenth": {
+    "distance": 10,
+    "semitones": 15 },
+  "major_tenth": {
+    "distance": 10,
+    "semitones": 16 },
+  "augmented_tenth": {
+    "distance": 10,
+    "semitones": 17 },
+  "diminished_eleventh": {
+    "distance": 11,
+    "semitones": 16 },
+  "perfect_eleventh": {
+    "distance": 11,
+    "semitones": 17 },
+  "augmented_eleventh": {
+    "distance": 11,
+    "semitones": 18 },
+  "diminished_twelfth": {
+    "distance": 12,
+    "semitones": 18 },
+  "perfect_twelfth": {
+    "distance": 12,
+    "semitones": 19 },
+  "augmented_twelfth": {
+    "distance": 12,
+    "semitones": 20 },
+  "diminished_thirteenth": {
+    "distance": 13,
+    "semitones": 19 },
+  "minor_thirteenth": {
+    "distance": 13,
+    "semitones": 20 },
+  "major_thirteenth": {
+    "distance": 13,
+    "semitones": 21 },
+  "augmented_thirteenth": {
+    "distance": 13,
+    "semitones": 22 },
+  "diminished_fourteenth": {
+    "distance": 14,
+    "semitones": 21 },
+  "minor_fourteenth": {
+    "distance": 14,
+    "semitones": 22 },
+  "major_fourteenth": {
+    "distance": 14,
+    "semitones": 23 },
+  "augmented_fourteenth": {
+    "distance": 14,
+    "semitones": 24 },
+  "diminished_fifteenth": {
+    "distance": 15,
+    "semitones": 23 },
+  "perfect_fifteenth": {
+    "distance": 15,
+    "semitones": 24 },
+  "augmented_fifteenth": {
+    "distance": 15,
+    "semitones": 25 }
+}

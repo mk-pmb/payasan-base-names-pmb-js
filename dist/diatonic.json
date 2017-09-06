@@ -1,0 +1,70 @@
+﻿{ "": {
+    "moduleName": "DiatonicInterval",
+    "license": "BSD-3-Clause",
+    "origAuthor": "Stephen Peter Tetley (https://github.com/stephentetley)",
+    "monoType": false,
+    "order": [
+      "simple_unison",
+      "simple_second",
+      "simple_third",
+      "simple_fourth",
+      "simple_fifth",
+      "simple_sixth",
+      "simple_seventh",
+      "compoundUnison",
+      "compoundSecond",
+      "compoundThird",
+      "compoundFourth",
+      "compoundFifth",
+      "compoundSixth",
+      "compoundSeventh" ] },
+  "simple_unison": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = UNISON, dia_interval_octave = 0 }" },
+  "simple_second": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = SECOND, dia_interval_octave = 0 }" },
+  "simple_third": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = THIRD, dia_interval_octave = 0 }" },
+  "simple_fourth": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = FOURTH, dia_interval_octave = 0 }" },
+  "simple_fifth": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = FIFTH, dia_interval_octave = 0 }" },
+  "simple_sixth": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = SIXTH, dia_interval_octave = 0 }" },
+  "simple_seventh": {
+    "type": "DiatonicInterval",
+    "src": "{ dia_interval_type   = SEVENTH, dia_interval_octave = 0 }" },
+  "compoundUnison": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = UNISON, dia_interval_octave = o }" },
+  "compoundSecond": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = SECOND, dia_interval_octave = o }" },
+  "compoundThird": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = THIRD, dia_interval_octave = o }" },
+  "compoundFourth": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = FOURTH, dia_interval_octave = o }" },
+  "compoundFifth": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = FIFTH, dia_interval_octave = o }" },
+  "compoundSixth": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = SIXTH, dia_interval_octave = o }" },
+  "compoundSeventh": {
+    "type": "Int -> DiatonicInterval",
+    "args": "o",
+    "src": "DiatonicInterval { dia_interval_type   = SEVENTH, dia_interval_octave = o }" }
+}

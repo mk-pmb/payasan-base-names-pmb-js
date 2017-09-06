@@ -1,0 +1,23 @@
+﻿{ "": {
+    "moduleName": "Duration",
+    "license": "BSD-3-Clause",
+    "origAuthor": "Stephen Peter Tetley (https://github.com/stephentetley)",
+    "monoType": "Duration",
+    "order": [
+      "drn_1",
+      "drn_2",
+      "drn_4",
+      "drn_8",
+      "drn_16",
+      "drn_32",
+      "drn_64",
+      "drn_128" ] },
+  "drn_1": "d_whole",
+  "drn_2": "d_half",
+  "drn_4": "d_quarter",
+  "drn_8": "d_eighth",
+  "drn_16": "d_sixteenth",
+  "drn_32": "d_thirty_secondth",
+  "drn_64": "d_sixty_fourth",
+  "drn_128": "d_one_hundred_and_twenty_eighth"
+}
